@@ -1,0 +1,78 @@
+.chat-box-buttons{
+    display: flex;
+    width: 70%;
+    gap: 2.5rem;
+}
+.chat-box-button{
+    margin-top: 2.5rem;
+    display: block;
+}
+.chat-box-button p{
+    text-align: center;
+}
+.chat-box-button .button{
+    border-radius: 12px;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+}
+.chat-box-button .button h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 14.892px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.1px; /* 151.316% */
+    text-transform: capitalize;
+}
+.chat-box-button .button p{
+    color: #FFF;
+    font-size: 15.89px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.1px;
+    text-transform: capitalize;
+
+}
+@media screen and (max-width: 769.7px){
+    .chat-box-buttons{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:1rem;
+        width: 100%;
+    }
+    .chat-box-button{
+        margin-top: 0.5rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023.9px){
+    .chat-box-buttons{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:1rem;
+        width: 100%;
+    }
+    .chat-box-button .button{
+        padding: 10px;
+    }
+    .chat-box-button{
+        margin-top: 0.5rem;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1229.9px){
+    .chat-box-buttons{
+        gap:1.5rem;
+        width: 100%;
+    }
+    .chat-box-button{
+        margin-top: 0.5rem;
+    }
+}
+@media (min-width: 1230px){
+    .chat-box-buttons{
+        gap:1.5rem;
+        width: 75%;
+    }
+    .chat-box-button{
+        margin-top: 1.5rem;
+    }
+}

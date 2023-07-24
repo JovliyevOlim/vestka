@@ -1,0 +1,478 @@
+.chat-field {
+    display: flex;
+    justify-content: center;
+}
+
+.chat-section {
+    display: flex;
+    align-items: stretch;
+    gap: 38px;
+    padding: 20px 20px 0 20px;
+}
+
+.chat-section-menu {
+    width: 30%;
+}
+
+.chat-section-input {
+    border-radius: 12px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    margin-bottom: 30px;
+}
+
+.chat-section-input input {
+    width: 100%;
+    padding: 10px 0;
+    color: #595E64;
+    font-size: 17.041px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    line-height: 23.595px; /* 138.462% */
+}
+
+.chat-section-input input::placeholder {
+    color: #595E64;
+}
+
+.chat-section-input img {
+    width: 33px;
+    height: 33px;
+}
+
+.chat-section-items {
+    border-radius: 12px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    padding: 41px 25px 300px 25px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-section-item {
+    display: flex;
+    gap: 19px;
+    padding: 16px 12px;
+}
+
+.chat-section-item.active {
+    background: #F3F1F1;
+}
+
+.chat-section-item h4 {
+    color: #525559;
+    font-size: 17.89px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24.1px;
+}
+
+.chat-section-box {
+    width: 70%;
+    border-radius: 12px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-section-box-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chat-section-box-items img {
+    width: 127px;
+    height: 127px;
+}
+
+.chat-section-box-items h4 {
+    color: #525559;
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 52.8px */
+}
+
+.chat-section-box-items p {
+    width: 65%;
+    color: #525559;
+    text-align: center;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147%; /* 42.63px */
+    margin-bottom: 40px;
+}
+
+.chat-section-box-items a {
+    color: #00ADA7;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147%;
+    text-decoration-line: underline;
+}
+
+.footer {
+    background-color: black;
+    padding: 0 20px;
+}
+
+.chat-footer-upper {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.chat-footer {
+    width: 30%;
+    padding: 46px 0;
+    display: flex;
+    align-items: center;
+}
+
+.chat-footer img {
+    width: 105px;
+    height: 105px;
+}
+
+.chat-footer h4 {
+    color: #FCFCFC;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 52.8px */
+}
+
+.chat-footer-input {
+    width: 70%;
+    border-radius: 12px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    padding: 27px 30px 27px 57px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-footer-input input {
+
+    outline: none;
+    border: none;
+    width: 95%
+}
+
+.chat-footer-arrow {
+    display: flex;
+}
+
+.chat-footer-arrow h6 {
+    color: #C9C8C8;
+    text-align: center;
+    font-size: 15.73px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 10px;
+    line-height: 22.284px; /* 141.667% */
+}
+
+.chat-footer-arrow img {
+    width: 20px;
+    height: 26px;
+    margin-left: -5px;
+}
+
+@media screen and (max-width: 769.7px) {
+    .chat-section {
+        display: block;
+    }
+
+    .chat-section-menu {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .chat-section-input {
+        padding: 4px 10px
+    }
+
+    .chat-section-input input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .chat-section-items {
+        padding: 10px;
+    }
+
+    .chat-section-item {
+        padding: 8px 6px;
+    }
+
+    .chat-section-item h4 {
+        font-size: 14px
+    }
+
+    .chat-section-box {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .chat-section-box-items h4 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .chat-section-box-items p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .chat-section-box-items a {
+        font-size: 14px;
+    }
+
+    .chat-footer-upper {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .chat-footer {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .chat-footer h4 {
+        font-size: 30px;
+    }
+
+    .chat-footer img {
+        width: 80px;
+        height: 80px;
+    }
+    .chat-footer-input{
+        width: 100%;
+        padding:10px;
+    }
+
+    .chat-footer-input input{
+        width: 95%;
+        font-size: 10px;
+    }
+    .chat-footer-arrow{
+        align-items: center;
+    }
+    .chat-footer-arrow h6{
+        font-size: 12px;
+    }
+    .chat-footer-arrow img{
+        width: 10px;
+        height: 13px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023.9px) {
+    .chat-section {
+        display: flex;
+    }
+
+    .chat-section-menu {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .chat-section-input {
+        padding: 4px 10px
+    }
+
+    .chat-section-input input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .chat-section-items {
+        padding: 10px;
+    }
+
+    .chat-section-item {
+        padding: 8px 6px;
+    }
+
+    .chat-section-item h4 {
+        font-size: 14px
+    }
+
+    .chat-section-box {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .chat-section-box-items h4 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .chat-section-box-items p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .chat-section-box-items a {
+        font-size: 14px;
+    }
+
+    .chat-footer-upper {
+        margin-top: 30px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .chat-footer {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .chat-footer h4 {
+        font-size: 30px;
+    }
+
+    .chat-footer img {
+        width: 80px;
+        height: 80px;
+    }
+    .chat-footer-input{
+        width: 100%;
+        padding:10px;
+    }
+
+    .chat-footer-input input{
+        width: 95%;
+        font-size: 10px;
+    }
+    .chat-footer-arrow{
+        align-items: center;
+    }
+    .chat-footer-arrow h6{
+        font-size: 12px;
+    }
+    .chat-footer-arrow img{
+        width: 10px;
+        height: 13px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1229.9px) {
+    .chat-section {
+        display: flex;
+    }
+
+    .chat-section-menu {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    .chat-section-input {
+        padding: 4px 10px
+    }
+
+    .chat-section-input input {
+        font-size: 14px;
+    }
+
+    .chat-section-items {
+        padding: 10px;
+    }
+
+    .chat-section-item {
+        padding: 8px 6px;
+    }
+
+    .chat-section-item h4 {
+        font-size: 14px
+    }
+
+    .chat-section-box {
+        width: 70%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .chat-section-box-items h4 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .chat-section-box-items p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .chat-section-box-items a {
+        font-size: 14px;
+    }
+
+    .chat-footer-upper {
+        margin-top: 30px;
+        display: flex;
+        gap: 50px;
+    }
+
+    .chat-footer {
+        width: 30%;
+        padding: 10px 0;
+    }
+
+    .chat-footer h4 {
+        font-size: 30px;
+    }
+
+    .chat-footer img {
+        width: 80px;
+        height: 80px;
+    }
+    .chat-footer-input{
+        width: 70%;
+        padding:10px;
+    }
+
+    .chat-footer-input input{
+        width: 95%;
+        font-size: 10px;
+    }
+    .chat-footer-arrow{
+        align-items: center;
+    }
+    .chat-footer-arrow h6{
+        font-size: 12px;
+    }
+    .chat-footer-arrow img{
+        width: 10px;
+        height: 13px;
+    }
+}
+
+@media (min-width: 1230px) {
+    .chat-box-buttons {
+        justify-content: center;
+        gap: 1.5rem;
+        width: 75%;
+    }
+
+    .chat-box-button {
+        margin-top: 1.5rem;
+    }
+}

@@ -1,0 +1,104 @@
+.chat-aws-box{
+    width: 70%;
+    border-radius: 12px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    padding: 40px 18px;
+}
+.chat-aws-item{
+    display: flex;
+}
+.chat-aws-item-own{
+    padding:14px 0 22px 60px;
+    gap:15px;
+    align-items: center;
+}
+.chat-aws-item-counter {
+    gap: 34px;
+    padding:14px 0 22px 70px;
+    background: #EAF9F8;
+    align-items: start;
+}
+.chat-aws-item img{
+    width: 68px;
+    height: 68px;
+}
+.chat-aws-item-counter img{
+    width: 40px;
+    height: 40px;
+}
+.chat-aws-item h4{
+    color: #525559;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147%; /* 33.81px */
+}
+@media screen and (max-width: 769.7px){
+    .chat-aws-box{
+        margin-bottom:20px;
+        padding: 10px;
+        gap:1rem;
+        width: 100%;
+    }
+    .chat-aws-item-own{
+        padding: 10px 0 22px 10px;
+        gap: 1rem;
+    }
+    .chat-aws-item-counter{
+        padding: 10px 0 22px 20px;
+        gap: 1rem;
+    }
+    .chat-aws-item-own img{
+        width:50px;
+        height:50px;
+    }
+    .chat-aws-item h4{
+        font-size: 16px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023.9px){
+    .chat-aws-box{
+        margin-bottom:20px;
+        padding: 10px;
+        gap:1rem;
+        width: 100%;
+    }
+    .chat-aws-item-own{
+        padding: 10px 0 22px 10px;
+        gap: 1rem;
+    }
+    .chat-aws-item-counter{
+        padding: 10px 0 22px 20px;
+        gap: 1rem;
+    }
+    .chat-aws-item-own img{
+        width:50px;
+        height:50px;
+    }
+    .chat-aws-item h4{
+        font-size: 16px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1229.9px){
+    .chat-aws-box{
+        margin-bottom:20px;
+        padding: 10px;
+        gap:1rem;
+    }
+    .chat-aws-item-own{
+        padding: 20px 0 22px 40px;
+        gap: 1rem;
+    }
+    .chat-aws-item-counter{
+        padding: 20px 0 22px 40px;
+        gap: 1.5rem;
+    }
+    .chat-aws-item-own img{
+        width:50px;
+        height:50px;
+    }
+    .chat-aws-item h4{
+        font-size: 16px;
+    }
+}
