@@ -1,7 +1,6 @@
 .footer {
     height: 196px;
     background-color: #000000;
-    padding: 0 16rem;
 }
 
 .footer-content {
@@ -214,6 +213,7 @@
     }
     .footer-content{
         padding: 0;
+        margin-top: 10px;
     }
     .footer-upper{
         display: flex;
